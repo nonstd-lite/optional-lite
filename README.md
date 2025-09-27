@@ -1,6 +1,6 @@
 # optional lite: A single-file header-only version of a C++17-like optional, a nullable object for C++98, C++11 and later
 
-[![Language](https://img.shields.io/badge/C%2B%2B-98/11-blue.svg)](https://en.wikipedia.org/wiki/C%2B%2B#Standardization) [![License](https://img.shields.io/badge/license-BSL-blue.svg)](https://opensource.org/licenses/BSL-1.0) [![Build Status](https://github.com/martinmoene/optional-lite/actions/workflows/ci.yml/badge.svg)](https://github.com/martinmoene/optional-lite/actions/workflows/ci.yml) [![Build status](https://ci.appveyor.com/api/projects/status/1oq5gjm7bufrv6ib?svg=true)](https://ci.appveyor.com/project/martinmoene/optional-lite) [![Version](https://badge.fury.io/gh/martinmoene%2Foptional-lite.svg)](https://github.com/martinmoene/optional-lite/releases) [![download](https://img.shields.io/badge/latest-download-blue.svg)](https://raw.githubusercontent.com/martinmoene/optional-lite/master/include/nonstd/optional.hpp) [![Conan](https://img.shields.io/badge/on-conan-blue.svg)](https://conan.io/center/optional-lite) [![Vcpkg](https://img.shields.io/badge/on-vcpkg-blue.svg)](https://vcpkg.link/ports/optional-lite) [![Try it online](https://img.shields.io/badge/on-wandbox-blue.svg)](https://wandbox.org/permlink/bfZdDT4WerPNZi6b) [![Try it on godbolt online](https://img.shields.io/badge/on-godbolt-blue.svg)](https://godbolt.org/z/3tecRa)
+[![Language](https://img.shields.io/badge/C%2B%2B-98/11-blue.svg)](https://en.wikipedia.org/wiki/C%2B%2B#Standardization) [![License](https://img.shields.io/badge/license-BSL-blue.svg)](https://opensource.org/licenses/BSL-1.0) [![Build Status](https://github.com/martinmoene/optional-lite/actions/workflows/ci.yml/badge.svg)](https://github.com/martinmoene/optional-lite/actions/workflows/ci.yml) [![Version](https://badge.fury.io/gh/martinmoene%2Foptional-lite.svg)](https://github.com/martinmoene/optional-lite/releases) [![download](https://img.shields.io/badge/latest-download-blue.svg)](https://raw.githubusercontent.com/martinmoene/optional-lite/master/include/nonstd/optional.hpp) [![Conan](https://img.shields.io/badge/on-conan-blue.svg)](https://conan.io/center/optional-lite) [![Vcpkg](https://img.shields.io/badge/on-vcpkg-blue.svg)](https://vcpkg.link/ports/optional-lite) [![Try it online](https://img.shields.io/badge/on-wandbox-blue.svg)](https://wandbox.org/permlink/bfZdDT4WerPNZi6b) [![Try it on godbolt online](https://img.shields.io/badge/on-godbolt-blue.svg)](https://godbolt.org/z/3tecRa)
 
 **Contents**  
 - [Example usage](#example-usage)
@@ -9,9 +9,9 @@
 - [Dependencies](#dependencies)
 - [Installation](#installation)
 - [Synopsis](#synopsis)
-- [Comparison of std::optional, optional lite and Boost.Optional](#comparison-of-stdoptional-optional-lite-and-boostoptional)
-- [Reported to work with](#reported-to-work-with)
-- [Building the tests](#building-the-tests)
+  - [Comparison of std::optional, optional lite and Boost.Optional](#comparison-of-stdoptional-optional-lite-and-boostoptional)
+  - [Reported to work with](#reported-to-work-with)
+  - [Building the tests](#building-the-tests)
 - [Implementation notes](#implementation-notes)
 - [Other implementations of optional](#other-implementations-of-optional)
 - [Notes and references](#notes-and-references)
