@@ -894,13 +894,13 @@ union storage_t
     template <typename U>
     optional_nodiscard U * as()
     {
-        return reinterpret_cast<U*>( ptr() );
+        return static_cast<U*>( ptr() );
     }
 
     template <typename U>
     optional_nodiscard U const * as() const
     {
-        return reinterpret_cast<U const *>( ptr() );
+        return static_cast<U const *>( ptr() );
     }
 };
 
