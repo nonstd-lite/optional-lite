@@ -569,7 +569,7 @@ struct is_nothrow_swappable
     }
 
     template< typename T >
-    static auto test( int /*unused*/ ) -> std11::integral_constant<bool, satisfies<T>()>{}
+    static auto test( int /*unused*/ ) -> std11::integral_constant<bool, satisfies<T>()>;
 
     template< typename >
     static auto test(...) -> std11::false_type;
