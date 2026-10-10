@@ -28,13 +28,11 @@
 
 // tweak header support:
 
-#ifdef __has_include
-# if __has_include(<nonstd/optional.tweak.hpp>)
-#  include <nonstd/optional.tweak.hpp>
-# endif
-#define optional_HAVE_TWEAK_HEADER  1
+#if defined(__has_include) && __has_include(<nonstd/optional.tweak.hpp>)
+# include <nonstd/optional.tweak.hpp>
+# define optional_HAVE_TWEAK_HEADER  1
 #else
-#define optional_HAVE_TWEAK_HEADER  0
+# define optional_HAVE_TWEAK_HEADER  0
 //# pragma message("optional.hpp: Note: Tweak header not supported.")
 #endif
 
